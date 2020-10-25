@@ -1,0 +1,70 @@
+.title-color {
+	color: #fc9e20;
+}
+.title {
+	font-family: Roboto;
+	font-size: 60px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.69px;
+}
+.content__btn {
+	color: #fff;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.32px;
+	background-color: #fba419;
+	border-radius: 30px;
+	padding: 15px 27px;
+	transform: scale(1);
+	transition-duration: 0.5s;
+	opacity: 1;
+	@media (min-width: 991.98px) {
+		&:hover {
+			transform: scale(1.1);
+			opacity: 0.8;
+			transition-duration: 0.5s;
+		}
+	};
+}
+.text {
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 30px;
+	letter-spacing: 0.6px;
+	padding-right: 15px;
+}
+.text > span {
+	font-weight: 400;
+}
+.container-fluid {
+	max-width: 1350px;
+	padding: 0 15px;
+	margin: 0 auto;
+	width: 100%;
+	outline: 1px solid red;
+}
+.ontop {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	background-color: rgba(252, 158, 32, 0.6);
+	display: inline-block;
+	padding: 10px 10px 8px;
+	position: fixed;
+	border-radius: 30px;
+	bottom: 50px;
+	right: 50px;
+	z-index: 100;
+	@media (max-width: 476px) {
+			bottom: 20px;
+			right: 20px;
+		};
+}
+
